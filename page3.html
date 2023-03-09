@@ -1,68 +1,33 @@
-import * as echarts from 'echarts';
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>W3Cschool教程(w3cschool.cn)</title> 
+</head>
+<body>
 
-var chartDom = document.getElementById('main');
-var myChart = echarts.init(chartDom);
-var option;
+<p>
+photo1:
+<img src="https://i.postimg.cc/dVK52Gtm/20230309091058.png"></p>
 
-option = {
-  backgroundColor: '#2c343c',
-  title: {
-    text: 'company biggest goal',
-    left: 'center',
-    top: 20,
-    textStyle: {
-      color: '#ccc'
-    }
-  },
-  tooltip: {
-    trigger: 'item'
-  },
-  visualMap: {
-    show: false,
-    min: 80,
-    max: 600,
-    inRange: {
-      colorLightness: [0, 1]
-    }
-  },
-  series: [
-    {
-      name: 'Access From',
-      type: 'pie',
-      radius: '55%',
-      center: ['50%', '50%'],
-      data: [
-        { value: 335, name: 'Increase sales ' },
-        { value: 310, name: ' Build brand awareness' },
-        { value: 274, name: 'Develop new products' },
-        { value: 400, name: 'All of the above' }
-      ].sort(function (a, b) {
-        return a.value - b.value;
-      }),
-      roseType: 'radius',
-      label: {
-        color: 'rgba(255, 255, 255, 0.3)'
-      },
-      labelLine: {
-        lineStyle: {
-          color: 'rgba(255, 255, 255, 0.3)'
-        },
-        smooth: 0.2,
-        length: 10,
-        length2: 20
-      },
-      itemStyle: {
-        color: '#c23531',
-        shadowBlur: 200,
-        shadowColor: 'rgba(0, 0, 0, 0.5)'
-      },
-      animationType: 'scale',
-      animationEasing: 'elasticOut',
-      animationDelay: function (idx) {
-        return Math.random() * 200;
-      }
-    }
-  ]
-};
+<p>
+photo2:
+<img src="https://i.postimg.cc/bvyLM8nZ/20230309091025.png"></p>
 
-option && myChart.setOption(option);
+<p>
+
+<p></p>
+</body>
+</html>
+<!DOCTYPE html> 
+ <html> 
+ <body> 
+
+ <h1>My First Heading</h1> 
+ <p>My first paragraph.</p > 
+ </p > The survey subjects are all employees who have worked in the company for a long time and have a basic understanding of the company. They believe that increasing sales, establishing brand awareness, developing new products and expanding product range are the current goals of the company. They also hope that the company will become better and better by enhancing and improving the website and implementing online sales platform.</p > 
+
+<p></p>
+</body>
+</html>
+
